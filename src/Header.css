@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    height: 75px;
+    z-index: 100;
+    position: fixed;
+    
+}
+
+.site--navigation {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.site--navigation svg {
+    height: 25px;
+    fill: white;
+    color: white;
+    width: auto;
+    
+}
+
+.site--navigation > a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 0 1em;
+}
+
+.homeLink {
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.about--container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.about--image {
+    width: auto;
+    height: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}

@@ -1,0 +1,81 @@
+.projects {
+    background-color: #fff;
+    transition: 1s ease-in-out;
+}
+
+.projects--container {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+.project {
+    position: absolute;
+    height: 60vh;
+    border-radius: 25px;
+    width: 60vw;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+    
+
+    
+}
+.backHomeButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1em;
+    color: #111;
+    text-decoration: none;
+    font-size: 3em;
+
+}
+
+
+.project1{
+    background-image: url('C:\Users\jfuns\OneDrive\Desktop\portfolio-site-100-devs\public\assets\dreamstreet.jpg');
+    transform: rotate(3deg);
+    right: 0;
+    bottom: 0;
+    margin: 5vh 5vw;
+    z-index: 100;
+}
+
+.project2{
+    background-image: url('C:\Users\jfuns\OneDrive\Desktop\portfolio-site-100-devs\public\assets\model-photo.jpg');
+    transform: rotate(-2deg);
+    left: 0;
+    bottom: 0;
+    margin: 12.5vh 5vw;
+    z-index: 50;
+}
+
+.project3{
+    background-image: url('C:\Users\jfuns\OneDrive\Desktop\portfolio-site-100-devs\public\assets\surfer.jpg');
+    transform: rotate(1deg);
+    left: 0;
+    bottom: 0;
+    margin: 35vh 20vw;
+    z-index: 20;
+}
+
+.project:hover {
+    z-index: 250;
+    height: 66vh;
+    width: 63vw;
+    transition: .3s ease-in-out;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, .5);
+    filter: grayscale(100%);
+}
+
+
+
+@media only screen and (min-width: 800px) {
+    .project {
+        background-size: cover;
+    }
+
+}

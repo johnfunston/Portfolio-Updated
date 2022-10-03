@@ -1,0 +1,230 @@
+    
+.home {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.home--container {
+    width: 100%;
+    height: 100%;
+    margin-top: 75px;
+    border-radius: 25px;
+    
+}
+
+.my--info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em;
+    font-size: 1.5em;
+    
+}
+
+.freelance--blurb {
+    width: 25%;
+}
+
+.freelance--blurb_ampersand {
+    color: rgb(167, 221, 221);
+    font-size: 1.75em;
+}
+
+.country_asterisk {
+    font-size: 1.75em;
+    color: crimson;
+}
+
+.developer--title_descriptors {
+    display: flex;
+    overflow: hidden;
+}
+
+.descriptor {
+    margin-top: 0;
+    height: 100%;
+    min-width: 100vw;
+    font-size: 5.5vw;
+    animation: scrolling 3.75s ease-in-out;
+}
+
+.descriptor > p {
+    text-align: center;
+    font-size: 11vw;
+}
+
+.developer--title > h1 {
+    margin-top: 10px;
+    font-size: 9em;
+    margin-left: .25em;
+}
+
+.developer--title_bottom {
+    margin-top: 0px;
+    text-align: right;
+    margin-right: .25em;
+}
+
+.final_descriptor, .desc_full-stack {
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.desc_passionate {
+    color: #fff;
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+.desc_creative {
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.desc_bold {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+
+    
+}
+
+.final_descriptor {
+    color: #ff8c94;
+}
+
+.arrow--down {
+    height: 35vh;
+    width: auto;
+    left: 0;
+    bottom: 0;
+    margin: 5em;
+    position: absolute;
+    fill: white;
+    animation: jiggle 1s ease-in-out infinite;
+}
+
+.yellow_blob {
+    height: 25vh;
+    
+}
+
+.navigateToProjects--container:hover {
+    font-size: 1.15em;
+    transition: .5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .buttonToProjects {
+        color: lightgray;
+        text-decoration: none;
+        font-size: 8em;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 1em;
+        font-weight: bolder;
+        text-align: right;
+        font-family: 'Indie Flower', cursive;
+        color: white;
+
+    
+    }
+    
+
+    .desc_full-stack, .final_descriptor {
+        background-color: #111;
+        color:#ff8c94;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 601px) {
+    .buttonToProjects {
+        color: lightgray;
+        text-decoration: none;
+        font-size: 8em;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: 0 2.5em;
+        font-weight: bolder;
+        text-align: right;
+        font-family: 'Indie Flower', cursive;
+        color: white;
+
+    }
+
+    .developer--title_descriptors {
+        height: 20vh;
+        font-size: 20vh;
+        line-height: 20vh;
+    }
+
+    .desc_passionate {
+        color: #a8e6ce;
+    }
+
+    .desc_creative {
+        color:  #44EE70;
+    }
+    .desc_bold {
+        color: #00b9ff;
+    }
+    .final_descriptor {
+        color: #111;
+        background-color: #F5704A;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .desc_full-stack {
+        color: #111;
+        background-color: #F5704A;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+
+}
+
+@keyframes scrolling {
+    0%{
+        transform: translateX(-100vw);
+    } 12.5% {
+        transform: translateX(-100vw);
+    } 25% {
+        transform: translateX(-100vw);
+    } 37.5% {
+        transform: translateX(-200vw);
+    } 50% {
+        transform: translateX(-200vw);
+    } 62.5% {
+        transform: translateX(-300vw);
+    } 75% {
+        transform: translateX(-300vw);
+    } 87.5% {
+        transform: translateX(-400vw);
+    } 100% {
+        transform: translateX(-400vw);
+    }
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(0deg)
+    } 25% {
+        transform: rotate(5deg)
+    } 50% {
+        transform: rotate(0deg)
+    } 75% {
+        transform: rotate(5deg)
+    } 100% {
+        transform: rotate(0deg)
+    }
+}

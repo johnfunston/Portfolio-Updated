@@ -1,0 +1,111 @@
+.navigationMenu {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    
+}
+
+.navigationMenu--container {
+    display: flex;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+
+}
+
+
+.contactSlideIn {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-100vw);
+    transition: .5s ease-in-out;
+    z-index: 150;
+}
+
+.exitMenu {
+    max-height: 10%;
+    position: absolute;
+    z-index: 200;
+}
+
+.active {
+    transform: translateX(0);
+}
+
+.exitMenu {
+    height: 25px;
+    width: 25px;
+}
+
+.exitMenu svg {
+    margin: 25px;
+    height: 50px;
+    width: auto;
+    fill: white;
+}
+
+svg:hover {
+    transform: scale(1.25);
+    transition: .25s ease-in-out;
+}
+
+.navigationMenu--links > a {
+    color: white;
+    font-size: 10em;
+    text-decoration: none;
+}
+
+.navigationMenu--links {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.contactButton {
+    color: #EFB9AD;
+    font-size: 10em;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contactButton:hover {
+    transform: scale(1.25);
+    transition: .25s ease-in-out;
+}
+
+
+.videoBackground {
+    min-height: 100vh;
+    position: absolute;
+
+
+}
+
+.videoBackground > video {
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    min-height: 100vh;
+    min-width: 100vw;
+    filter: brightness(50%);
+    object-fit: cover;
+
+}
+
+.navigationMenu--links > *:hover {
+    transition: .25s ease-in-out;
+    transform: scale(1.25);
+}
+
+.linkNumber {
+    color: white;
+    font-size: 1.75em;
+}
