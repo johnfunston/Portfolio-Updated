@@ -1,21 +1,65 @@
 .about {
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: #3D426B;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about--container {
     display: flex;
-    flex-direction: column;
     height: 100%;
     width: 100%;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.about--image {
+    height: 100%;
+    width: auto;
+    
+}
+
+.about--blurb {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.about--image {
-    width: auto;
-    height: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+.about--blurb_title{
+    font-size: 6em;
+    width: 50%;
+    
+}
+
+h1 > .titleNumber {
+    font-size: .5em;
+}
+
+.about--blurb_text {
+    width: 50%;
+    font-size: 4em;
+}
+
+@media only screen and (max-width: 800px) {
+    .about--image {
+        height: auto;
+        width: 100%;
+    }
+    .about--container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about--blurb {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+    }
 }

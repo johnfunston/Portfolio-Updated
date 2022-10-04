@@ -8,6 +8,7 @@ function Contact() {
         <a href="/" className="backHomeButton">BACK</a>
         
         <div className="contact--container">
+          <h1><span>04 / </span>Contact</h1>
             <div className="my--info contact--page--info">
                 <p className="freelance--blurb">Currently available for freelance work <span className="freelance--blurb_ampersand">&</span> collaboration</p>
                 <p className='country'><span className="country_asterisk">*</span>Working out of Victoria, BC, Canada</p>

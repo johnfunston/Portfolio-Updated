@@ -23,9 +23,8 @@ function NavigationMenu() {
             <div className='navigationMenu--links'>
             <span className="linkNumber">01 /  </span><a href="/">HOME</a>
                 <span className="linkNumber">02 / </span><a href="/about">ABOUT</a>
-                <span className="linkNumber">03 / </span><a href="/">SERVICES</a>
-                <span className="linkNumber">04 / </span><a href="/projects">PROJECTS</a>
-                <span className="linkNumber">05 / </span><a href="/contact">CONTACT</a>
+                <span className="linkNumber">03 / </span><a href="/projects">PROJECTS</a>
+                <span className="linkNumber">04 / </span><a href="/contact">CONTACT</a>
             </div>
         </div>
     </div>
