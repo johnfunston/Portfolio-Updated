@@ -35,10 +35,10 @@ function Home() {
             </div>
             <div className="navigateToProjects--container">
                 <a href="/projects" className="buttonToProjects">
-                    <img className="yellow_blob" src="assets/yellow-blob.png" alt=""/>
+                    <img className="yellow_blob" src="https://res.cloudinary.com/dhc0ncbyq/image/upload/v1664915130/Yellow-blob_lhb1wd.png" alt=""/>
                 MY WORK</a>
                 <a href="/projects">
-                    <img className="arrow--down" src="assets/downarrow-white.png" alt=""/>
+                    <img className="arrow--down" src="https://res.cloudinary.com/dhc0ncbyq/image/upload/v1664915137/downarrow-white_inxmhh.png" alt=""/>
                 </a>
             </div>
         </div>

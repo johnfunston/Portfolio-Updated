@@ -7,7 +7,7 @@ function About() {
     <div className="about">
       <Header/>
         <div className="about--container">
-            <img className="about--image" src='assets/aboutpic.jpg' alt=''/>
+            <img className="about--image" src='https://res.cloudinary.com/dhc0ncbyq/image/upload/v1664915145/aboutpic_dtuta2.jpg' alt=''/>
             <div className="about--blurb">
               <h1 className='about--blurb_title'><span className="titleNumber">02 / </span>ABOUT</h1>
               <p className='about--blurb_text'>

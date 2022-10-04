@@ -36,7 +36,7 @@
 
 
 .project1{
-    background-image: url('C:\Users\jfuns\OneDrive\Desktop\portfolio-site-100-devs\public\assets\dreamstreet.jpg');
+    background-image: url('https://res.cloudinary.com/dhc0ncbyq/image/upload/v1664915108/dreamstreet_xsdar4.jpg');
     transform: rotate(3deg);
     right: 0;
     bottom: 0;
@@ -45,7 +45,7 @@
 }
 
 .project2{
-    background-image: url('C:\Users\jfuns\OneDrive\Desktop\portfolio-site-100-devs\public\assets\model-photo.jpg');
+    background-image: url('https://res.cloudinary.com/dhc0ncbyq/image/upload/v1664915123/model-photo_cjmqzu.jpg');
     transform: rotate(-2deg);
     left: 0;
     bottom: 0;
@@ -54,7 +54,7 @@
 }
 
 .project3{
-    background-image: url('C:\Users\jfuns\OneDrive\Desktop\portfolio-site-100-devs\public\assets\surfer.jpg');
+    background-image: url('https://res.cloudinary.com/dhc0ncbyq/image/upload/v1664915113/surfer_v2ezdc.jpg');
     transform: rotate(1deg);
     left: 0;
     bottom: 0;
